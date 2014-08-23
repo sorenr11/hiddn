@@ -1,0 +1,30 @@
+{
+    "name": "Chatty",
+    "version": "0.1.0",
+    "description": "Chatty, a simple web chat room",
+    "keywords": ["OpenShift", "Node.js", "application", "socket.io"],
+    "homepage": "https://github.com/jeremyosborne/chatty",
+    "author": {
+        "name": "Ethan Byrd",
+        "email": "ethan@baboomi.com",
+        "url": "Not ethanbyrd.com because of an asshole who doesn't even use it."
+    },
+    "repository": {
+        "type": "git",
+        "url": "none atm"
+    },
+    "engines": {
+        "node": ">= 0.6.0",
+        "npm": ">= 1.0.0"
+    },
+
+    "dependencies": {
+        "socket.io": "0.9.x",
+        "express": "3.x"
+    },
+    "devDependencies": {},
+    "bundleDependencies": [],
+
+    "private": true,
+    "main": "server.js"
+}
